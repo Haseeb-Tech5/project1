@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "SUSE", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--light-grey);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-track {
+  background: var(--transparent);
+}
+:root {
+  --text-color: orange;
+  --sidebar-logo: #ececec;
+  --sidebar-text: #0063aa;
+  --super-admin: #919aa2;
+  --dark-grey: #7f8891;
+  --light-grey: #e1e1e1;
+  --transparent: transparent;
+  --orange: #ff5e00;
+  --black-color: rgb(0, 0, 0);
+  --white-color: white;
+  --search-field: #f1f3f4;
+  --search-field-light: #f1f3f4;
+  --total-earing: #236cde;
+  --lite-total-earing: #2d73e1;
+  --comission: #43b20f;
+  --lite-comission: #4db71c;
+  --providers: #fb9511;
+  --lite-providers: #fe9d11;
+  --settings: #233ecf;
+  --lite-settings: #2d48d0;
+  --modal-color: rgba(19, 29, 54, 0.253);
+  /* --font-suse: "SUSE", sans-serif; */
+
+  /* font-size */
+
+  --react-icons: 2rem;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}

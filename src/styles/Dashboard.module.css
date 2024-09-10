@@ -1,0 +1,87 @@
+.HOME_main {
+  width: 100%;
+  display: flex;
+}
+.HOME_content {
+  width: calc(100% - 30rem);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.HOME_CONTENT_main {
+  width: 100%;
+  overflow-y: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.HOME_main.SIDEBAR_collapsed .HOME_content {
+  margin-left: 5rem;
+  width: calc(100% - 5rem);
+}
+.HOME_total_earing {
+  width: 23.5%;
+  height: 12rem;
+  border-radius: 0.5rem;
+  background-color: var(--total-earing);
+  padding: 2.2rem;
+  position: relative;
+  z-index: -1;
+}
+.HOME_commission {
+  background-color: var(--comission);
+}
+.HOME_green {
+  background-color: var(--lite-comission) !important;
+}
+.HOME_provider {
+  background-color: var(--providers);
+}
+.HOME_orange {
+  background-color: var(--lite-providers) !important;
+}
+.HOME_settings {
+  background-color: var(--settings);
+}
+.HOME_blue {
+  background-color: var(--lite-settings) !important;
+}
+.HOME_clippath {
+  position: absolute;
+  background-color: var(--lite-total-earing);
+  clip-path: circle(50% at 10% 21%);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  border-radius: 0.5rem;
+}
+.HOME_providers {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 2rem;
+}
+.HOME_earing h2 {
+  font-size: 2.5rem;
+  line-height: 2rem;
+  color: var(--white-color);
+  font-weight: 500;
+}
+.TOTAL_text h2 {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  color: var(--white-color);
+  font-weight: 400;
+}
+.HOME_earing_combine {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.HOME_CONTENT_content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

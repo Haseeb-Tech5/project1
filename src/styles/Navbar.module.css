@@ -1,0 +1,82 @@
+.NAVBAR_main {
+  width: 100%;
+  height: fit-content;
+  background-color: var(--white-color);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.NAVBAR_Search h2 {
+  color: var(--black);
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+  font-family: var(--font-suse);
+}
+.NAVBAR_control {
+  height: fit-content;
+  background-color: var(--white-color);
+  width: fit-content;
+  height: fit-content;
+  border-radius: 1rem;
+  padding: 0.3rem 0.5rem;
+}
+.NAVBAR_control h2 {
+  color: var(--dark-grey);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2rem;
+  font-family: var(--font-suse);
+}
+.NAVBAR_search_content {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  width: fit-content;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--search-field);
+  border-radius: 1rem;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+.NAVBAR_english h2 {
+  color: var(--black);
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+  font-family: var(--font-suse);
+}
+.NAVBAR_en h2 {
+  color: var(--black);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+  font-family: var(--font-suse);
+}
+.NAVBAR_world_main {
+  width: fit-content;
+  height: 4rem;
+  background-color: var(--search-field-light);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.NAVBAR_profile_image_img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.NAVBAR_content_container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.NAVBAR_message,
+.NAVBAR_profile_image {
+  cursor: pointer;
+}
